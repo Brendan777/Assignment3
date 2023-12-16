@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Trendy Store</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="./products.js"></script> <!-- Include a JavaScript file to load product information -->
+</head>
+
+<body>
+
+<!-- Navigation -->
+<div class="jumbotron">
+    <div class="container text-center">
+        <h1>Trendy Store</h1>      
+        <p>Latest and Greatest Fashion</p>
+    </div>
+</div>
+
+<!-- Log Out and Continue Shopping Buttons -->
+<div class="container text-center">
+        <!-- <button id="logoutBtn" class="btn btn-primary">Log Out</button> -->
+        <input class="btn btn-primary" type="button" value="Log Out" onclick="logout();"/>
+        <a href="products_display.html?category=Bags" class="btn btn-primary">Continue Shopping</a>
+</div>
+
+<script src="./logout.js"></script>
+</body>
+</html>

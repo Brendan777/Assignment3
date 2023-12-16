@@ -1,0 +1,125 @@
+[
+  {
+    "category": "Bags",
+    "products": [
+      {
+        "name": "Dior x Starbucks Backpack",
+        "price": 599.99,
+        "qty_available": 50,
+        "image": "./images/Dior.png"
+      },
+      {
+        "name": "Balenciaga x Taco Bell Backpack",
+        "price": 799.99,
+        "qty_available": 50,
+        "image": "./images/Balenciaga.png"
+      },
+      {
+        "name": "Nike x Papa John's Backpack",
+        "price": 49.99,
+        "qty_available": 50,
+        "image": "./images/Nike.png"
+      },
+      {
+        "name": "Louis Vuitton x McDonald's Backpack",
+        "price": 799.99,
+        "qty_available": 50,
+        "image": "./images/LV.png"
+      },
+      {
+        "name": "Adidas x KFC Backpack",
+        "price": 39.99,
+        "qty_available": 50,
+        "image": "./images/Adidas.png"
+      },
+      {
+        "name": "Starbucks Dolce and Gabana",
+        "price": 999.99,
+        "qty_available": 50,
+        "image": "./images/Starbucks2.png"
+      }
+    ]
+  },
+  {
+    "category": "Shirts",
+    "products": [
+      {
+        "name": "Pizza Hut Collab T-Shirt",
+        "price": 99.99,
+        "qty_available": 50,
+        "image": "./images/PizzaHut1.png"
+      },
+      {
+        "name": "KFC Collab T-Shirt",
+        "price": 29.99,
+        "qty_available": 50,
+        "image": "./images/KFC1.png"
+      },
+      {
+        "name": "Mcdonalds Collab T-Shirt",
+        "price": 19.99,
+        "qty_available": 50,
+        "image": "./images/McDonalds1.png"
+      },
+      {
+        "name": "Subway Collab T-Shirt",
+        "price": 39.99,
+        "qty_available": 50,
+        "image": "./images/Subway1.png"
+      },
+      {
+        "name": "Burger King Collab T-Shirt",
+        "price": 14.99,
+        "qty_available": 50,
+        "image": "./images/BurgerKing1.png"
+      },
+      {
+        "name": "Wendys Collab T-Shirt",
+        "price": 24.99,
+        "qty_available": 50,
+        "image": "./images/Wendys1.png"
+      }
+    ]
+  },
+  {
+    "category": "Pants",
+    "products": [
+      {
+        "name": "Burger King Collab Pants",
+        "price": 79.99,
+        "qty_available": 50,
+        "image": "./images/BurgerKing2.png"
+      },
+      {
+        "name": "KFC Collab Pants",
+        "price": 69.99,
+        "qty_available": 50,
+        "image": "./images/KFC2.png"
+      },
+      {
+        "name": "Subway Collab Pants",
+        "price": 89.99,
+        "qty_available": 50,
+        "image": "./images/Subway2.png"
+      },
+      {
+        "name": "Tacobell Collab Pants",
+        "price": 99.99,
+        "qty_available": 50,
+        "image": "./images/Tacobell2.png"
+      },
+      {
+        "name": "Wendys Collab Pants",
+        "price": 59.99,
+        "qty_available": 50,
+        "image": "./images/Wendys2.png"
+      },
+      {
+        "name": "Mcdonalds Collab Pants",
+        "price": 79.99,
+        "qty_available": 50,
+        "image": "./images/McDonalds2.png"
+      }
+    ]
+  }
+]

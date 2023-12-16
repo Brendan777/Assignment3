@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Trendy Store - Login</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">=
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script> 
+  $(function(){
+    $("#header").load("header.html"); 
+  });
+  </script>
+</head>
+<body>
+
+<!-- Navigation -->
+<div id="header"></div>
+
+<!-- Main Content -->
+<div class="container">    
+    <h1 style="font-size: 60px;">Login</h1>
+  <br>
+  <br>
+  <div id="error"></div>
+  <div class="login-container">
+    <form action="/user_login" method="POST"> <!-- Updated action attribute -->
+      <div id="hiddenFields"></div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" class="form-control" required>
+      </div>
+      <div class="form-group">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" class="form-control" required>
+      </div>
+      <button type="submit" class="btn btn-primary">Login</button>
+    </form>
+    <!-- <p>Don't have an account? <a href="register.html">Register here</a></p> -->
+    <br/>
+    <p>Don't have an account?  
+      <form action="/forward_to_register_page" method="POST"> 
+        <div id="hiddenFields2"></div>
+        <button type="submit" class="btn btn-primary">Register here</button>
+      </form>
+    </p>
+  </div>
+</div>
+
+<script src="login.js"></script> 
+
+</body>
+</html>

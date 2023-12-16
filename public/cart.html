@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Trendy Store</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="./products.js"></script> <!-- Include a JavaScript file to load product information -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script> 
+  $(function(){
+    $("#header").load("header.html"); 
+  });
+  </script>
+</head>
+
+<body>
+
+<div id="header"></div>
+
+<!-- Main Content -->
+<div class="container">    
+ 
+  <!-- INVOICE TABLE (borrowed Sal's Code) --> 
+  <table class="table">
+    <thead style="background-color: #0C090A; color: #f7fcff; font-weight: bolder;">
+        <tr>
+            <th colspan="2">Item</th>
+            <th>Quantity Purchased</th>
+            <th>Remaining Inventory</th>
+            <th>Price</th>
+            <th>Extended Price</th>
+        </tr>
+    </thead>
+    <tbody id="invoice_table"></tbody>
+    <tbody id="total_display"></tbody>
+</table>
+  
+<!-- <div style="float: right;">
+  <form action="/purchase_login_check" method="POST"> 
+    <div id="hiddenFields"></div>
+    <button type="submit" class="btn btn-primary">Checkout</button>
+  </form>
+</div> -->
+
+<input id="clickMe" class="btn btn-primary" type="button" value="Checkout" onclick="checkout();"/>
+
+
+</div>
+<script src="./cart.js"></script>
+
+</body>
+</html>

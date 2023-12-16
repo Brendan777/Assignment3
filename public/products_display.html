@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Trendy Store</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="./products.js"></script> <!-- Include a JavaScript file to load product information -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script> 
+  $(function(){
+    $("#header").load("header.html"); 
+  });
+  </script>
+
+</head>
+
+<body>
+
+<!-- Navigation -->
+<div id="header"></div>
+
+<!-- Main Content -->
+<div class="container">    
+    <h1 style="font-size: 60px;">Products</h1>
+  <br>
+  <br>
+  <h3 id="errMsg" style="color: #ff2e2e;"></h3>
+  
+  <!-- PRODUCT CARDS -->
+ <!-- <form action="/add_to_cart" method="POST" name="qty_form" class="qty_form"> -->
+            <script>
+                // Storing the products_key to be used on the server
+                document.write(`<input type="hidden" name="products_key" value="${products_key}">`);
+            </script>
+
+            <div class="row"></div>
+        <!-- </form> -->
+</div>
+<script src="./products_display.js"></script>
+
+</body>
+</html>
